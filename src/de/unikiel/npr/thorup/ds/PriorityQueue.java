@@ -73,6 +73,6 @@ public interface PriorityQueue<T, U extends PriorityQueueItem<T>> {
 	public void decreaseKeyTo(U item, double newKey)
 		throws IllegalArgumentException, NoSuchElementException;
 	
-	public void updateKeyTo(U item, double newKey)
-			throws IllegalArgumentException, NoSuchElementException;
+	/*public void updateKeyTo(U item, double newKey)
+			throws IllegalArgumentException, NoSuchElementException;*/
 }
